@@ -37,7 +37,7 @@ export default function Home() {
 
   const testimonials = [
     {
-      text: "L'Atelier Beauty Lounge is where luxury meets artistry. Every detail is perfection.",
+      text: "Velvet Beauty is where luxury meets artistry. Every detail is perfection.",
       author: "Sara M.",
       role: "Fashion Blogger",
       image: "/client-testimonial-1.jpg",
@@ -101,7 +101,7 @@ export default function Home() {
               <div className="flex flex-col sm:flex-row gap-4 pt-6">
                 <Link
                   href="/booking"
-                  className="group px-8 py-4 bg-[#f9b215] rounded-full font-semibold hover:shadow-lg transition-all duration-300 hover:scale-105 inline-flex items-center justify-center gap-2 luxury-shadow text-card"
+                  className="group px-8 py-4 bg-[#dbc08f] rounded-full font-semibold hover:shadow-lg transition-all duration-300 hover:scale-105 inline-flex items-center justify-center gap-2 luxury-shadow text-card"
                 >
                   Book Your Experience
                   <span className="group-hover:translate-x-1 transition-transform">→</span>
@@ -141,7 +141,7 @@ export default function Home() {
               <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-accent/10 to-transparent rounded-3xl blur-2xl" />
               <img
                 src="/hero-beauty-salon.jpg"
-                alt="Luxury beauty services at L'Atelier Beauty Lounge"
+                alt="Luxury beauty services at Velvet Beauty"
                 className="relative w-full h-full object-cover rounded-3xl luxury-shadow-lg hover:shadow-2xl transition-all duration-500 leading-7"
               />
             </div>
@@ -156,7 +156,7 @@ export default function Home() {
             <div className="relative h-80 md:h-96 rounded-3xl overflow-hidden luxury-shadow-lg hidden md:block">
               <img
                 src="/hero-beauty-salon.jpg"
-                alt="L'Atelier Beauty Lounge salon"
+                alt="Velvet Beauty salon"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -164,10 +164,10 @@ export default function Home() {
             {/* Right content */}
             <ScrollAnimation className="space-y-6">
               <div>
-                <p className="text-primary font-serif text-lg mb-3">About L'Atelier Beauty Lounge</p>
+                <p className="text-primary font-serif text-lg mb-3">About Velvet Beauty</p>
                 <h2 className="luxury-text text-4xl md:text-5xl mb-4">Luxury Beauty Redefined</h2>
                 <p className="leading-relaxed text-foreground text-sm">
-                  At L'Atelier Beauty Lounge, we believe beauty is an art form. For over a decade, we've been crafting
+                  At Velvet Beauty, we believe beauty is an art form. For over a decade, we've been crafting
                   transformative experiences that celebrate individuality and elegance. Our team of expert artisans is
                   dedicated to delivering unparalleled luxury and sophistication in nail art, spa treatments,
                   hairdressing, and aesthetic services.
@@ -191,7 +191,7 @@ export default function Home() {
 
               <Link
                 href="/about"
-                className="inline-flex items-center gap-2 px-8 py-3 bg-[#f9b215] rounded-full font-semibold hover:shadow-lg transition-all hover:scale-105 group text-card"
+                className="inline-flex items-center gap-2 px-8 py-3 bg-[#dbc08f] rounded-full font-semibold hover:shadow-lg transition-all hover:scale-105 group text-card"
               >
                 Learn More
                 <span className="group-hover:translate-x-1 transition-transform">→</span>
@@ -261,7 +261,7 @@ export default function Home() {
               <p className="text-primary font-serif text-lg mb-4">Client Stories</p>
               <h2 className="luxury-text md:text-6xl mb-6 text-4xl">Celebrated by Our Guests</h2>
               <p className="text-lg max-w-2xl mx-auto leading-relaxed text-foreground">
-                Discover the transformations and joy our clients experience at L'Atelier Beauty Lounge.
+                Discover the transformations and joy our clients experience at Velvet Beauty.
               </p>
             </div>
           </ScrollAnimation>
@@ -317,12 +317,12 @@ export default function Home() {
               Your Transformation Awaits
             </h2>
             <p className="text-lg md:text-xl text-white/90 mb-10 max-w-2xl mx-auto leading-relaxed">
-              Step into a world of luxury and elegance. Book your appointment today and discover the L'Atelier Beauty
-              Lounge difference.
+              Step into a world of luxury and elegance. Book your appointment today and discover the Velvet Beauty
+              difference.
             </p>
             <Link
               href="/booking"
-              className="inline-flex items-center gap-2 px-10 py-4 bg-[#f9b215] text-black rounded-full font-semibold hover:shadow-2xl transition-all duration-300 hover:scale-105 bg-background"
+              className="inline-flex items-center gap-2 px-10 py-4 bg-[#dbc08f] text-black rounded-full font-semibold hover:shadow-2xl transition-all duration-300 hover:scale-105 bg-background"
             >
               Reserve Your Slot
               <span>→</span>

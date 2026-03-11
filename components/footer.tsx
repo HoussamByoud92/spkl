@@ -7,7 +7,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* Brand */}
           <div>
-            <h3 className="font-bold text-lg mb-4">L'Atelier Beauty Lounge</h3>
+            <h3 className="font-bold text-lg mb-4">Velvet Beauty</h3>
             <p className="text-sm opacity-80">
               Premium nail art and beauty services. Elevate your style with expert care.
             </p>
@@ -83,7 +83,7 @@ export function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex items-center gap-2">
                 <span>📍</span>
-                <span>Marrakech, Morocco</span>
+                <span>Maarif, Casablanca, Morocco</span>
               </li>
               <li className="flex items-center gap-2">
                 <span>📞</span>
@@ -91,14 +91,14 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-2">
                 <span>✉️</span>
-                <span>contact@latelierlounge.ma</span>
+                <span>contact@velvetbeauty.com</span>
               </li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-background/20 pt-8 flex flex-col md:flex-row justify-between items-center text-sm opacity-80">
-          <p>&copy; 2025 L'Atelier Beauty Lounge. All rights reserved.</p>
+          <p>&copy; 2025 Velvet Beauty. All rights reserved.</p>
           <div className="flex gap-4 mt-4 md:mt-0">
             <Link href="#" className="hover:text-accent transition-colors">
               Privacy

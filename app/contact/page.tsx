@@ -37,8 +37,8 @@ export default function ContactPage() {
     {
       icon: "📍",
       label: "Address",
-      value: "27 Rue de la Liberté, Marrakech",
-      subvalue: "45 Avenue Hassan II, Marrakech",
+      value: "Maarif",
+      subvalue: "Casablanca, Morocco",
     },
     {
       icon: "📞",
@@ -49,7 +49,7 @@ export default function ContactPage() {
     {
       icon: "✉️",
       label: "Email",
-      value: "contact@latelierlounge.ma",
+      value: "contact@velvetbeauty.com",
       subvalue: "We'll respond within 24 hours",
     },
   ]
@@ -63,7 +63,7 @@ export default function ContactPage() {
         className="relative overflow-hidden md:pt-10 md:pb-10 bg-cover bg-center bg-no-repeat pb-10 pt-5"
         style={{ backgroundImage: "url('/hero-beauty-salon.jpg')" }}
       >
-        <div className="absolute inset-0 bg-gradient-to-b from-[#f9b215]/70 via-[#f9b215]/50 to-[#f9b215]/30" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#dbc08f]/70 via-[#dbc08f]/50 to-[#dbc08f]/30" />
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center space-y-6">
@@ -172,7 +172,7 @@ export default function ContactPage() {
 
                   <button
                     type="submit"
-                    className="w-full py-3 bg-[#f9b215] text-black rounded-lg font-semibold hover:bg-[#f0a80d] transition-all hover:shadow-lg flex items-center justify-center gap-2"
+                    className="w-full py-3 bg-[#dbc08f] text-black rounded-lg font-semibold hover:bg-[#c5ab7a] transition-all hover:shadow-lg flex items-center justify-center gap-2"
                   >
                     <span>✉️</span>
                     Send Message

@@ -44,7 +44,7 @@ export default function AboutPage() {
       role: "Event Coordinator",
     },
     {
-      text: "Professionalism and care define L'Atelier Beauty Lounge. My lashes and nails have never looked better, thanks to their skilled team.",
+      text: "Professionalism and care define Velvet Beauty. My lashes and nails have never looked better, thanks to their skilled team.",
       author: "Leila K.",
       role: "Event Planner",
     },
@@ -72,7 +72,7 @@ export default function AboutPage() {
           backgroundImage: "url('/hero-beauty-salon.jpg')",
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-b from-[#f9b215]/70 via-[#f9b215]/50 to-[#f9b215]/30" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#dbc08f]/70 via-[#dbc08f]/50 to-[#dbc08f]/30" />
 
         {/* Animated background elements */}
         <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-br from-pink-lightest via-pink-lighter to-transparent rounded-full blur-3xl opacity-60 animate-float my-14" />
@@ -96,7 +96,7 @@ export default function AboutPage() {
             </h1>
 
             <p className="md:text-xl max-w-2xl mx-auto leading-relaxed text-primary-foreground font-semibold text-sm">
-              At L'Atelier Beauty Lounge, we are dedicated to empowering confidence through beauty. Our mission is to
+              At Velvet Beauty, we are dedicated to empowering confidence through beauty. Our mission is to
               provide expert nail, spa, hair, lash, makeup, and aesthetic services that elevate your style while
               embracing elegance and personalized care.
             </p>
@@ -119,7 +119,7 @@ export default function AboutPage() {
                 Meet the skilled professionals dedicated to enhancing your style and beauty.
               </p>
               <p className="text-muted-foreground">
-                At L'Atelier Beauty Lounge, we believe that beauty is more than just appearance—it&#39;s about feeling
+                At Velvet Beauty, we believe that beauty is more than just appearance—it&#39;s about feeling
                 confident and empowered. Our team of expert professionals is committed to providing personalized
                 services that bring out your best self.
               </p>
@@ -210,13 +210,13 @@ export default function AboutPage() {
       {/* CTA Section */}
       <section className="py-20 md:py-32 text-primary-foreground bg-accent">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="md:text-4xl font-bold mb-6 text-2xl">Ready to Experience L'Atelier Beauty Lounge?</h2>
+          <h2 className="md:text-4xl font-bold mb-6 text-2xl">Ready to Experience Velvet Beauty?</h2>
           <p className="text-lg opacity-90 mb-8 max-w-2xl mx-auto">
-            Book your appointment today and discover the L'Atelier Beauty Lounge difference.
+            Book your appointment today and discover the Velvet Beauty difference.
           </p>
           <Link
             href="/booking"
-            className="inline-flex items-center gap-2 px-8 py-3 bg-[#f9b215] text-black rounded-full font-semibold hover:bg-[#f0a80d] hover:shadow-lg transition-all hover:scale-105 bg-background"
+            className="inline-flex items-center gap-2 px-8 py-3 bg-[#dbc08f] text-black rounded-full font-semibold hover:bg-[#c5ab7a] hover:shadow-lg transition-all hover:scale-105 bg-background"
           >
             Book Now
           </Link>

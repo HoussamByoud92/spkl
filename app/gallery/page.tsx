@@ -22,7 +22,7 @@ export default function GalleryPage() {
         className="relative overflow-hidden md:pb-20 md:pt-10 bg-cover bg-center bg-no-repeat pt-5 pb-10"
         style={{ backgroundImage: "url('/nail-art-service.jpg')" }}
       >
-        <div className="absolute inset-0 bg-gradient-to-b from-[#f9b215]/70 via-[#f9b215]/50 to-[#f9b215]/30" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#dbc08f]/70 via-[#dbc08f]/50 to-[#dbc08f]/30" />
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center space-y-6">

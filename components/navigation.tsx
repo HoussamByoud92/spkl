@@ -20,8 +20,8 @@ export function Navigation() {
         <div className="flex justify-between items-center h-20">
           <Link href="/" className="flex items-center gap-2 group">
             <img
-              src="/latelier-logo.png"
-              alt="L'Atelier Beauty Lounge - Premium Nail Art & Beauty Services"
+              src="/velvet-beauty-logo.png"
+              alt="Velvet Beauty - Premium Nail Art & Beauty Services"
               className="w-auto object-contain h-14"
             />
           </Link>
@@ -43,7 +43,7 @@ export function Navigation() {
           <div className="hidden md:block">
             <Link
               href="/booking"
-              className="px-6 py-2 text-primary-foreground rounded-full font-medium hover:bg-primary/90 transition-all hover:shadow-lg bg-amber-400"
+              className="px-6 py-2 text-primary-foreground rounded-full font-medium hover:bg-primary/90 transition-all hover:shadow-lg bg-[#dbc08f]"
             >
               Book Now
             </Link>

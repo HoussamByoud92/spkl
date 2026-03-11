@@ -66,7 +66,7 @@ export default function BookingPage() {
             </div>
             <h1 className="text-4xl font-bold text-foreground">Booking Confirmed!</h1>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Thank you for booking with Illy Marrakech. We've sent a confirmation email to {formData.email}. We look
+              Thank you for booking with Velvet Beauty. We've sent a confirmation email to {formData.email}. We look
               forward to seeing you!
             </p>
             <div className="bg-card rounded-2xl p-8 text-left space-y-4 mt-8">
@@ -115,7 +115,7 @@ export default function BookingPage() {
             backgroundImage: "url('/hero-beauty-salon.jpg')",
           }}
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-[#f9b215]/70 via-[#f9b215]/50 to-[#f9b215]/30" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#dbc08f]/70 via-[#dbc08f]/50 to-[#dbc08f]/30" />
 
         {/* Animated background elements */}
         <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-br from-pink-lightest via-pink-lighter to-transparent rounded-full blur-3xl opacity-60 animate-float my-0" />
