@@ -1,7 +1,8 @@
+/// <reference types="react" />
 "use client"
 
 import Link from "next/link"
-import { useState } from "react"
+import React, { useState } from "react"
 
 export function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
