@@ -20,8 +20,8 @@ export function Navigation() {
         <div className="flex justify-between items-center h-20">
           <Link href="/" className="flex items-center gap-2 group">
             <img
-              src="/velvet-beauty-logo.png"
-              alt="Velvet Beauty - Premium Nail Art & Beauty Services"
+              src="/sparkle-logo.png"
+              alt="Sparkle Beauty Empire - Premium Nail Art & Beauty Services"
               className="w-auto object-contain h-14"
             />
           </Link>

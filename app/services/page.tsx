@@ -134,7 +134,7 @@ export default function ServicesPage() {
       role: "Event Coordinator",
     },
     {
-      text: "Velvet Beauty's makeup artistry boosted my confidence for a special occasion. Impeccable and long-lasting.",
+      text: "Sparkle Beauty Empire's makeup artistry boosted my confidence for a special occasion. Impeccable and long-lasting.",
       author: "Omar B.",
       role: "Graphic Designer",
     },
@@ -149,7 +149,7 @@ export default function ServicesPage() {
         className="relative overflow-hidden pt-10 pb-30 bg-cover bg-center bg-no-repeat md:pb-20 md:pt-10"
         style={{ backgroundImage: "url('/nail-art-service.jpg')" }}
       >
-        <div className="absolute inset-0 bg-gradient-to-b from-[#dbc08f]/70 via-[#dbc08f]/50 to-[#dbc08f]/30" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#ffe3a5]/70 via-[#ffe3a5]/50 to-[#ffe3a5]/30" />
 
         {/* Animated background elements */}
         <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-br from-pink-lightest via-pink-lighter to-transparent rounded-full blur-3xl opacity-60 animate-float" />
@@ -169,7 +169,7 @@ export default function ServicesPage() {
             {/* Headline */}
             <h1 className="luxury-text md:text-6xl leading-tight text-white text-3xl lg:text-6xl">
               Elevate Your Style
-              <span className="block text-chart-5">with Velvet Beauty</span>
+              <span className="block text-chart-5">with Sparkle Beauty Empire</span>
             </h1>
 
             <p className="text-lg md:text-xl max-w-2xl mx-auto leading-relaxed font-light text-background">
@@ -218,7 +218,7 @@ export default function ServicesPage() {
                     <span className="text-2xl font-bold text-primary">{service.price}</span>
                     <Link
                       href="/booking"
-                      className="px-6 py-3 bg-[#dbc08f] text-black rounded-full font-semibold hover:bg-[#c5ab7a] transition-all flex md:inline-flex items-center gap-2 group w-full md:w-auto justify-center md:justify-start"
+                      className="px-6 py-3 bg-[#ffe3a5] text-black rounded-full font-semibold hover:bg-[#ddaa38] transition-all flex md:inline-flex items-center gap-2 group w-full md:w-auto justify-center md:justify-start"
                     >
                       Book Service
                       <span className="group-hover:translate-x-1 transition-transform">→</span>
@@ -268,8 +268,8 @@ export default function ServicesPage() {
               Expert Beauty Services Tailored for You
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Discover heartfelt reviews from our clients who love their transformed looks and the confidence Velvet
-              Beauty brings.
+              Discover heartfelt reviews from our clients who love their transformed looks and the confidence Sparkle
+              Beauty Empire brings.
             </p>
           </div>
 
@@ -292,11 +292,11 @@ export default function ServicesPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Transform Your Look?</h2>
           <p className="text-lg opacity-90 mb-8 max-w-2xl mx-auto">
-            Book your appointment today and experience the Velvet Beauty difference.
+            Book your appointment today and experience the Sparkle Beauty Empire difference.
           </p>
           <Link
             href="/booking"
-            className="flex md:inline-flex items-center gap-2 px-8 py-3 bg-[#dbc08f] rounded-full font-semibold hover:shadow-lg transition-all hover:scale-105 w-full md:w-auto justify-center text-foreground bg-card"
+            className="flex md:inline-flex items-center gap-2 px-8 py-3 bg-[#ffe3a5] rounded-full font-semibold hover:shadow-lg transition-all hover:scale-105 w-full md:w-auto justify-center text-foreground bg-card"
           >
             Book Now
             <span>→</span>

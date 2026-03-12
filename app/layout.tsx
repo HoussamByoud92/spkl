@@ -16,9 +16,9 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: "Velvet Beauty - Premium Nail Art & Beauty Services",
+  title: "Sparkle Beauty Empire - Premium Nail Art & Beauty Services",
   description:
-    "Experience premium nail art and beauty services at Velvet Beauty. Expert nail designs, spa treatments, makeup, and aesthetic services.",
+    "Experience premium nail art and beauty services at Sparkle Beauty Empire. Expert nail designs, spa treatments, makeup, and aesthetic services.",
   generator: "v0.app",
 }
 

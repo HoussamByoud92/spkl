@@ -4,11 +4,11 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Updated color palette for Velvet Beauty */
+  /* Updated color palette for Sparkle Beauty Empire */
   --light-gray: #f7f7f7;
   --very-light-gray: #eeeeee;
-  --dark-charcoal: #8f9686;
-  --blue-gray: #dbc08f;
+  --dark-charcoal: #ddaa38;
+  --blue-gray: #ffe3a5;
 
   --background: #f7f7f7;
   --foreground: #3a3a3a;
@@ -31,8 +31,8 @@
   --ring: var(--dark-charcoal);
   --chart-1: var(--dark-charcoal);
   --chart-2: var(--blue-gray);
-  --chart-3: #8f9686;
-  --chart-4: #dbc08f;
+  --chart-3: #ddaa38;
+  --chart-4: #ffe3a5;
   --chart-5: #eeeeee;
   --radius: 1rem;
   --sidebar: #f7f7f7;
@@ -67,8 +67,8 @@
   --ring: #dbc08f;
   --chart-1: var(--dark-charcoal);
   --chart-2: var(--blue-gray);
-  --chart-3: #8f9686;
-  --chart-4: #dbc08f;
+  --chart-3: #ddaa38;
+  --chart-4: #ffe3a5;
   --chart-5: #eeeeee;
   --sidebar: #1a1a1a;
   --sidebar-foreground: #f7f7f7;
@@ -245,9 +245,9 @@
     letter-spacing: -0.02em;
   }
 
-  /* Updated luxury gradient to Velvet Beauty color scheme */
+  /* Updated luxury gradient to Sparkle Beauty Empire color scheme */
   .luxury-gradient {
-    background: linear-gradient(135deg, #8f9686 0%, #dbc08f 50%, #eeeeee 100%);
+    background: linear-gradient(135deg, #ddaa38 0%, #ffe3a5 50%, #eeeeee 100%);
   }
 
   /* Updated luxury shadow colors to black */

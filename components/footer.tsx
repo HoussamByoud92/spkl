@@ -7,9 +7,9 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* Brand */}
           <div>
-            <h3 className="font-bold text-lg mb-4">Velvet Beauty</h3>
+            <h3 className="font-bold text-lg mb-4">Sparkle Beauty Empire</h3>
             <p className="text-sm opacity-80">
-              Premium nail art and beauty services. Elevate your style with expert care.
+              Sparkle spa the beauty empire est l'adresse incontournable pour un moment de détente avec nos services de hammam, massage ou encore soin de visage. Sans oublier la partie coiffure, esthétique, onglerie, maquillage, maquillage permanent ....
             </p>
           </div>
 
@@ -83,22 +83,22 @@ export function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex items-center gap-2">
                 <span>📍</span>
-                <span>Maarif, Casablanca, Morocco</span>
+                <span>quartier racine Casablanca</span>
               </li>
               <li className="flex items-center gap-2">
                 <span>📞</span>
-                <span>+212-524-123-456</span>
+                <span>05 22 99 40 66</span>
               </li>
               <li className="flex items-center gap-2">
                 <span>✉️</span>
-                <span>contact@velvetbeauty.com</span>
+                <span>contact@sparklebeautyempire.com</span>
               </li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-background/20 pt-8 flex flex-col md:flex-row justify-between items-center text-sm opacity-80">
-          <p>&copy; 2025 Velvet Beauty. All rights reserved.</p>
+          <p>&copy; 2026 Sparkle Beauty Empire. All rights reserved.</p>
           <div className="flex gap-4 mt-4 md:mt-0">
             <Link href="#" className="hover:text-accent transition-colors">
               Privacy
